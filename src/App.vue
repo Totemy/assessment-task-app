@@ -4,11 +4,8 @@
   </v-container>
 </template>
 <script>
-import LoginForm from '@/components/LoginForm.vue'
-export default {
-  components:{
 
-  }
+export default {
 }
 </script>
 <style lang="scss">

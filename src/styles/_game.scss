@@ -1,5 +1,13 @@
-.game-cell {
-  width: 36px;
-  height: 36px;
-  border: 1px solid #ddd;
+
+.game{
+  &__cell {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ddd;
+  }
+  &__grid {
+    flex-wrap: inherit;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
 }
